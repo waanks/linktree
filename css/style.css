@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%; /*Pra dizer que o HTML e o BODY tem 100% da tela*/
+}
+
+body {
+    background: rgb(54,77,204);
+    background: radial-gradient(circle, rgba(54,77,204,1) 35%, rgba(214,0,255,0.5158438375350141) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat; /* Propriedade do background para nao repetir a imagem do background*/
+}
+
+.profile {
+    text-align: center; /*Foi usado uma div e em seguida usado o text-alig center para centralizar a imagem e os textos*/
+    margin-top: 2rem;
+}
+
+.avatar {
+    width: 90px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.youtube {
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    background: black;
+    -webkit-transform: skew(30deg);
+    margin-right: 10px;
+    margin-left: 100px;
+    text-decoration: none; /* Retirar o sublinhado de baixo da palavra*/
+    
+    
+}
+
+.instagram {
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    background: black;
+    -webkit-transform: skew(30deg);
+    margin-right: 10px;
+    text-decoration: none; /* Retirar o sublinhado de baixo da palavra*/
+}
+
+.linkedin {
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    background: black;
+    -webkit-transform: skew(30deg);
+    margin-right: 10px;
+    text-decoration: none; /* Retirar o sublinhado de baixo da palavra*/
+}
+
+.github {
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    background: black;
+    -webkit-transform: skew(30deg);
+    margin-right: 10px;
+    text-decoration: none; /* Retirar o sublinhado de baixo da palavra*/
+}
+
+.whatsapp {
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    background: black;
+    -webkit-transform: skew(30deg);
+    margin-right: 10px;
+    text-decoration: none; /* Retirar o sublinhado de baixo da palavra*/
+}
+
+.social {
+    display: flex;
+    align-items: center; /*É necessário usar o align center e justify content center, pois um é horizontalmente e o outro é verticalmente*/
+    justify-content: center; /*É necessário usar o align center e justify content center, pois um é horizontalmente e o outro é verticalmente*/
+}
+
+.footer {
+    margin-top: 80px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-attachment: scroll;
+    text-align: center;
+    padding: 10px;
+}
+
+.textovertical {
+      width: 20px;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      transform: rotate(-2deg);
+      height: 200px;
+      margin-left: 50px;
+      line-height: 30px; /*Comando para aumentar o distanciamento das letras*/ 
+}
+
+.textovertical1 {
+    width: 16px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    transform: rotate(2deg);
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 30px; /*Comando para aumentar o distanciamento das letras*/ 
+}
+
+.textovertical2 {
+    width: 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    transform: rotate(2deg);
+    margin-left: 50px;
+    margin-top: 70px;
+    line-height: 30px; /*Comando para aumentar o distanciamento das letras*/ 
+}
+
+.textovertical3 {
+    width: 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    transform: rotate(2deg);
+    margin-left: 50px;
+    margin-top: 80px;
+    line-height: 39px; /*Comando para aumentar o distanciamento das letras*/ 
+}
+
+.textovertical4 {
+    width: 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    transform: rotate(2deg);
+    margin-left: 50px;
+    margin-top: 40px;
+    line-height: 39px; /*Comando para aumentar o distanciamento das letras*/ 
+}
